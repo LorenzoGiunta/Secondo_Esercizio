@@ -1,4 +1,5 @@
-
+import java.util.List;
+import java.util.ArrayList;
 import java.util.Scanner;
 public class Test {
     public static void main(String[] args) {
@@ -24,8 +25,8 @@ public class Test {
         
         System.out.println("\n");
         //registro la vendita di Cars per il primo cliente
-        Vendita v= new Vendita();
-        v.registraVendita(c1, g1);
+        List<Vendita> v= new ArrayList<>();
+        
 
 
         System.out.println("\n");
