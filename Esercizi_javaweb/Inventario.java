@@ -22,4 +22,13 @@ public class Inventario {
             }
         }
     }
+
+    public boolean controlloGioco(String g){
+        boolean ok=false;
+        for(int j=0; j<giocattolo.size(); j++){
+            if(giocattolo.get(j).getNome().equals(g))
+                ok=true;
+        }
+        return ok;
+    }
 }
